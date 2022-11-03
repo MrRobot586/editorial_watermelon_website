@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+// Import variables
+@import "./scss/variables";
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Global CSS
+@import "./scss/global";
+
+// Components
+@import "./scss/components/buttons";
+@import "./scss/components/navbar";
+
+// Sections
+@import "./scss/sections/masthead.scss";
+@import "./scss/sections/portfolio.scss";
+@import "./scss/sections/timeline.scss";
+@import "./scss/sections/team.scss";
+@import "./scss/sections/contact.scss";
+@import "./scss/sections/footer.scss";
