@@ -12,6 +12,7 @@ import { PortfolioComponent } from './components/sections/portfolio/portfolio.co
 import { AboutComponent } from './components/sections/about/about.component';
 import { TeamComponent } from './components/sections/team/team.component';
 import { PortfolioItemComponent } from './components/sections/portfolio/portfolio-item.component';
+import { TeamMemberComponent } from './components/sections/team/team-member.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PortfolioItemComponent } from './components/sections/portfolio/portfoli
     PortfolioComponent,
     AboutComponent,
     TeamComponent,
-    PortfolioItemComponent
+    PortfolioItemComponent,
+    TeamMemberComponent
   ],
   imports: [
     BrowserModule,
